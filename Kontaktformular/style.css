@@ -1,0 +1,56 @@
+body {
+  font-family:
+    Arial, sans-serif; /* Wenn Arial nicht verfügbar ist, wird eine generische Schriftart verwendet */
+  background-color: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* .form-box, weil form-box eine Klasse ist */
+.form-box {
+  width: 350px;
+  margin: 20px auto; /* Außenabstand */
+  padding: 20px; /* Innenabstand */
+  background-color: #e6e6e6;
+  border-radius: 15px; /* Runde Ecken */
+}
+
+form {
+  display: flex; /* Aktiviert Flexbox-Layout */
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px; /* Über Nachname: */
+  margin-bottom: 5px; /* Unter Nachname: */
+}
+
+input,
+textarea {
+  padding: 8px; /* Innenabstand im Feld */
+  border: 1px solid #ccc;
+  border-radius: 8px; /* Runde Ecken Eingabefelder */
+  /* Keine Hintergrundfarbe, da weiß Voreinstellung ist */
+}
+
+textarea {
+  height: 100px;
+  resize: none; /* Man kann das Feld nicht mit der Maus größer ziehen */
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+/* hover: Wenn man mit der Maus über den Button fährt */
+button:hover {
+  background-color: #45a049;
+}

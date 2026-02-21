@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- mit style.css verknüpfen -->
+  </head>
+  <body>
+    <h1>Quiz</h1>
+    <div class="quiz">
+      <h3>Frage 1:</h3>
+      <p>Was ist die Hauptstadt von Belarus?</p>
+      <label><input type="radio" name="q1" value="0" /> Bukarest</label><br />
+      <label><input type="radio" name="q1" value="1" /> Minsk</label><br />
+      <label><input type="radio" name="q1" value="0" /> Budapest</label><br />
+      <label><input type="radio" name="q1" value="0" /> Kiew</label><br />
+
+      <h3>Frage 2:</h3>
+      <p>Welches ist das größte Land der Welt?</p>
+      <label><input type="radio" name="q2" value="0" /> China</label><br />
+      <label><input type="radio" name="q2" value="0" /> USA</label><br />
+      <label><input type="radio" name="q2" value="1" /> Russland</label><br />
+      <label><input type="radio" name="q2" value="0" /> Australien</label><br />
+
+      <h3>Frage 3:</h3>
+      <p>Wer hat die Relativitätstheorie entwickelt?</p>
+      <label><input type="radio" name="q3" value="0" /> Nikola Tesla</label><br />
+      <label><input type="radio" name="q3" value="0" /> Isaac Newton</label><br />
+      <label><input type="radio" name="q3" value="0" /> Galileo Galilei</label><br />
+      <label><input type="radio" name="q3" value="1" /> Albert Einstein</label><br />
+
+      <br /><br />
+      <button onclick="auswerten()">Ergebnis anzeigen</button>
+
+      <p id="ergebnis"></p>
+      <!-- Leeres Element, das später mit JavaScript gefüllt wird -->
+    </div>
+    <script src="script.js"></script>
+    <!-- mit script.js verknüpfen -->
+  </body>
+</html>

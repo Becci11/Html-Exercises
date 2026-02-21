@@ -1,0 +1,29 @@
+body {
+  font-family:
+    Arial, sans-serif; /* Wenn Arial nicht verfügbar ist, wird eine generische Schriftart verwendet */
+  background-color: #d1aaaa;
+  text-align: center;
+}
+
+h1 {
+  color: antiquewhite;
+  margin-bottom: 30px;
+}
+
+.board {
+  width: 480px;
+  height: 480px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.field {
+  background-color: #f3e1e1;
+  border: 1px solid #caa5a5;
+  transition: background-color 0.3s ease; /* Sorgt für weiche Animation */
+}
+
+.field:hover {
+  background-color: antiquewhite;
+}
